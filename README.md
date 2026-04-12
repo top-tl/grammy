@@ -1,7 +1,8 @@
-# toptl-grammy
+[![npm version](https://img.shields.io/npm/v/@toptl/grammy.svg)](https://www.npmjs.com/package/@toptl/grammy)
+[![npm downloads](https://img.shields.io/npm/dm/@toptl/grammy.svg)](https://www.npmjs.com/package/@toptl/grammy)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[![npm](https://img.shields.io/npm/v/toptl-grammy)](https://www.npmjs.com/package/toptl-grammy)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+# toptl-grammy
 
 Grammy plugin for [TOP.TL](https://top.tl) — auto-post bot stats and check user votes.
 
