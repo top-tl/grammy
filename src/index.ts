@@ -62,7 +62,7 @@ function toptl(client: TopTL, username: string, options?: TopTLPluginOptions) {
       hasVoted: async () => {
         if (!userId) return false;
         const res = await client.hasVoted(username, userId);
-        return res.voted;
+        return (res as any).voted ?? (res as any).hasVoted ?? false;
       },
       isVoteActive: async () => {
         if (!userId) return { voted: false, timeLeft: 0 };

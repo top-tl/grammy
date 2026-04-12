@@ -12,7 +12,7 @@
     "grammy",
     "telegram",
     "bot",
-    "toptl",
+    "@toptl/sdk",
     "top.tl",
     "bot-list",
     "stats",
