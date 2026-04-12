@@ -1,4 +1,4 @@
-import { TopTL } from 'toptl';
+import { TopTL } from '@toptl/sdk';
 
 interface TopTLFlavor {
   toptl: {
@@ -75,4 +75,4 @@ function toptl(client: TopTL, username: string, options?: TopTLPluginOptions) {
 }
 
 export { toptl, TopTLFlavor, TopTLPluginOptions };
-export { TopTL } from 'toptl';
+export { TopTL } from '@toptl/sdk';
