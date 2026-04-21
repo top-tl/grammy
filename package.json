@@ -1,6 +1,6 @@
 {
   "name": "@toptl/grammy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grammy plugin for TOP.TL — auto-post bot stats & check votes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
     "grammy": ">=1.0.0"
   },
   "dependencies": {
-    "@toptl/sdk": "^1.0.0"
+    "@toptl/sdk": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
